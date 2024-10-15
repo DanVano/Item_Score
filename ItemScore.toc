@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: ItemScore
+## Author: SKftw
+## Dependencies: BonusScanner
+## Notes: Displays ratings for items in tooltips based on stat weights 
+## Version: 1
+
+ItemScore.lua
+ItemScoreWeights.lua
