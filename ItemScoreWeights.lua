@@ -212,7 +212,7 @@ VRB_WEIGHTS = {
     ["MANA"]              = 0.2,
     ["CRIT"]              = 10,
     ["RANGEDCRIT"]        = 10,
-    ["TOHIT"]             = 10,
+    ["TOHIT"]             = { 9, 10, 0 },
   },
 
   ["RogueDamage"] = {
@@ -220,7 +220,7 @@ VRB_WEIGHTS = {
     ["AGI"]         = 1,
     ["ATTACKPOWER"] = 0.9,
     ["CRIT"]        = 10,
-    ["TOHIT"]       = 10,
+    ["TOHIT"]       = { 8, 10, 0 },
   },
 
   ["MageDamage"] = {
@@ -230,7 +230,7 @@ VRB_WEIGHTS = {
     ["FIREDMG"]    = 0.8,
     ["FROSTDMG"]   = 0.8,
     ["SPELLCRIT"]  = 10,
-    ["SPELLTOHIT"] = 15,
+    ["SPELLTOHIT"] = { 16, 15, 0 },
   },
 
   ["WarlockDamage"] = {
@@ -239,7 +239,7 @@ VRB_WEIGHTS = {
     ["DMG"]        = 1,
     ["SHADOWDMG"]  = 0.8,
     ["SPELLCRIT"]  = 15,
-    ["SPELLTOHIT"] = 10,
+    ["SPELLTOHIT"] = { 16, 10, 0 },
   },
 
 }

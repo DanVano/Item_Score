@@ -21,9 +21,9 @@ end
 local function VRBCalculateRating(weightTable, bonuses)
   local baseScore = 0
   local weightTypes = VRB_WEIGHTS[weightTable]
-  local currentBonus = 0
 
   for t, w in pairs(weightTypes) do
+    local currentBonus = 0
     if BonusScanner.bonuses[t] then
       currentBonus = BonusScanner.bonuses[t]
     end
